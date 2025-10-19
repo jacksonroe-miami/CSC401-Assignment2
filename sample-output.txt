@@ -1,0 +1,118 @@
+Inserting key: 18
+i=0: inserted key 18 at slot 2
+Table: [-, -, 18, -, -, -, -, -, -, -, -, -, -, -, -, -]
+
+
+Inserting key: 34
+i=0: collision at slot 2 (occupied by 18)
+Table: [-, -, 18, -, -, -, -, -, -, -, -, -, -, -, -, -]
+
+i=1: inserted key 34 at slot 7
+Table: [-, -, 18, -, -, -, -, 34, -, -, -, -, -, -, -, -]
+
+
+Inserting key: 9
+i=0: inserted key 9 at slot 9
+Table: [-, -, 18, -, -, -, -, 34, -, 9, -, -, -, -, -, -]
+
+
+Inserting key: 50
+i=0: collision at slot 2 (occupied by 18)
+Table: [-, -, 18, -, -, -, -, 34, -, 9, -, -, -, -, -, -]
+
+i=1: collision at slot 7 (occupied by 34)
+Table: [-, -, 18, -, -, -, -, 34, -, 9, -, -, -, -, -, -]
+
+i=2: inserted key 50 at slot 12
+Table: [-, -, 18, -, -, -, -, 34, -, 9, -, -, 50, -, -, -]
+
+
+Inserting key: 66
+i=0: collision at slot 2 (occupied by 18)
+Table: [-, -, 18, -, -, -, -, 34, -, 9, -, -, 50, -, -, -]
+
+i=1: collision at slot 7 (occupied by 34)
+Table: [-, -, 18, -, -, -, -, 34, -, 9, -, -, 50, -, -, -]
+
+i=2: collision at slot 12 (occupied by 50)
+Table: [-, -, 18, -, -, -, -, 34, -, 9, -, -, 50, -, -, -]
+
+i=3: inserted key 66 at slot 1
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, -, -, 50, -, -, -]
+
+
+Inserting key: 10
+i=0: inserted key 10 at slot 10
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, -]
+
+
+Inserting key: 41
+i=0: collision at slot 9 (occupied by 9)
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, -]
+
+i=1: collision at slot 12 (occupied by 50)
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, -]
+
+i=2: inserted key 41 at slot 15
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+
+Inserting key: 57
+i=0: collision at slot 9 (occupied by 9)
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=1: collision at slot 12 (occupied by 50)
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=2: collision at slot 15 (occupied by 41)
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=3: collision at slot 2 (occupied by 18)
+Table: [-, 66, 18, -, -, -, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=4: inserted key 57 at slot 5
+Table: [-, 66, 18, -, -, 57, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+
+Inserting key: 73
+i=0: collision at slot 9 (occupied by 9)
+Table: [-, 66, 18, -, -, 57, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=1: collision at slot 12 (occupied by 50)
+Table: [-, 66, 18, -, -, 57, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=2: collision at slot 15 (occupied by 41)
+Table: [-, 66, 18, -, -, 57, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=3: collision at slot 2 (occupied by 18)
+Table: [-, 66, 18, -, -, 57, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=4: collision at slot 5 (occupied by 57)
+Table: [-, 66, 18, -, -, 57, -, 34, -, 9, 10, -, 50, -, -, 41]
+
+i=5: inserted key 73 at slot 8
+Table: [-, 66, 18, -, -, 57, -, 34, 73, 9, 10, -, 50, -, -, 41]
+
+
+Final hash table:
+[-, 66, 18, -, -, 57, -, 34, 73, 9, 10, -, 50, -, -, 41]
+
+Final hash table (slots):
+Slot 0: -
+Slot 1: 66
+Slot 2: 18
+Slot 3: -
+Slot 4: -
+Slot 5: 57
+Slot 6: -
+Slot 7: 34
+Slot 8: 73
+Slot 9: 9
+Slot 10: 10
+Slot 11: -
+Slot 12: 50
+Slot 13: -
+Slot 14: -
+Slot 15: 41
+
+Process finished with exit code 0
